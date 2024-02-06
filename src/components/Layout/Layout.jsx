@@ -5,7 +5,7 @@ import Header from '../Header/Header'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='grid gap-4'>
       <Header/>
       <Outlet/>
       <Footer/>
